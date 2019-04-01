@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Veröffentlichung\Slot7\</PublishUrl>
+    <PublishUrl>C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Git\Veröffentlichung\Slot7\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>

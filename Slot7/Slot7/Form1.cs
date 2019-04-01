@@ -19,10 +19,31 @@ namespace Slot7
 
         Random zufall = new Random();
 
-        public static int punkte = 0;
+        public static int punkte = 30;
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
+            tbpunkte.Text = Convert.ToString(punkte);
+            punkte = punkte - 5;
+            tbpunkte.Text = Convert.ToString(punkte);
+            if (punkte <= 0)
+            {
+                DialogResult x = MessageBox.Show("Sie haben keine Punkte mehr wollen sie Neustarten, Game Over", "Game Over", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (x == DialogResult.No)
+                {
+                    this.Close();
+                }
+                else if (x == DialogResult.Yes)
+                {
+                    punkte = 30;
+                    tbpunkte.Text = Convert.ToString(punkte);
+                    MessageBox.Show("Neues Spiel gestartet!", "Neues Spiel", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            
+            
+
             int zufallzahl = Convert.ToInt32(zufall.Next(1, 11));
 
             if (zufallzahl == 1)

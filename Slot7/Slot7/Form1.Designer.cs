@@ -31,18 +31,18 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tbslot1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tbslot2 = new System.Windows.Forms.TextBox();
             this.tbslot3 = new System.Windows.Forms.TextBox();
+            this.tbslot2 = new System.Windows.Forms.TextBox();
             this.tbpunkte = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -70,17 +70,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Slots";
             // 
-            // tbslot2
-            // 
-            this.tbslot2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbslot2.Location = new System.Drawing.Point(168, 84);
-            this.tbslot2.MaxLength = 1;
-            this.tbslot2.Name = "tbslot2";
-            this.tbslot2.ReadOnly = true;
-            this.tbslot2.ShortcutsEnabled = false;
-            this.tbslot2.Size = new System.Drawing.Size(30, 38);
-            this.tbslot2.TabIndex = 1;
-            // 
             // tbslot3
             // 
             this.tbslot3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -92,6 +81,17 @@
             this.tbslot3.Size = new System.Drawing.Size(30, 38);
             this.tbslot3.TabIndex = 2;
             // 
+            // tbslot2
+            // 
+            this.tbslot2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbslot2.Location = new System.Drawing.Point(168, 84);
+            this.tbslot2.MaxLength = 1;
+            this.tbslot2.Name = "tbslot2";
+            this.tbslot2.ReadOnly = true;
+            this.tbslot2.ShortcutsEnabled = false;
+            this.tbslot2.Size = new System.Drawing.Size(30, 38);
+            this.tbslot2.TabIndex = 1;
+            // 
             // tbpunkte
             // 
             this.tbpunkte.Location = new System.Drawing.Point(254, 227);
@@ -99,7 +99,7 @@
             this.tbpunkte.ReadOnly = true;
             this.tbpunkte.Size = new System.Drawing.Size(129, 20);
             this.tbpunkte.TabIndex = 2;
-            this.tbpunkte.Text = "0";
+            this.tbpunkte.Text = "30";
             // 
             // label1
             // 
@@ -135,41 +135,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Punkte Legende";
             // 
-            // label2
+            // label7
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "7 = 60 Punkte";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "3x";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(5, 42);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "S = 30 Punkte";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(5, 55);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "+ = 20 Punkte";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 81);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 13);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "# = 5 Punkte";
             // 
             // label6
             // 
@@ -180,14 +153,41 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "! = 10 Punkte";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 81);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 13);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "# = 5 Punkte";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 55);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 13);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "+ = 20 Punkte";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(5, 42);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "S = 30 Punkte";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(18, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "3x";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "7 = 60 Punkte";
             // 
             // Form1
             // 
