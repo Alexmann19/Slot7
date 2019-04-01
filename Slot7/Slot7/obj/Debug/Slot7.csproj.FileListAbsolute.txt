@@ -1,0 +1,14 @@
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\bin\Debug\Slot7.exe.config
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\bin\Debug\Slot7.exe
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\bin\Debug\Slot7.pdb
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.Form1.resources
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.Properties.Resources.resources
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.exe
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.pdb
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\bin\Debug\Slot7.exe.manifest
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\bin\Debug\Slot7.application
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.exe.manifest
+C:\Users\Alex\Desktop\Eigene Daten\Programme\C#\Slot7\Slot7\Slot7\obj\Debug\Slot7.application
