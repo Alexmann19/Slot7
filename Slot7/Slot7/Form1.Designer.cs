@@ -43,6 +43,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tbklicks = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -97,9 +99,10 @@
             this.tbpunkte.Location = new System.Drawing.Point(254, 227);
             this.tbpunkte.Name = "tbpunkte";
             this.tbpunkte.ReadOnly = true;
+            this.tbpunkte.ShortcutsEnabled = false;
             this.tbpunkte.Size = new System.Drawing.Size(129, 20);
             this.tbpunkte.TabIndex = 2;
-            this.tbpunkte.Text = "30";
+            this.tbpunkte.Text = "50";
             // 
             // label1
             // 
@@ -189,11 +192,32 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "7 = 60 Punkte";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(210, 259);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(38, 13);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Klicks:";
+            // 
+            // tbklicks
+            // 
+            this.tbklicks.Location = new System.Drawing.Point(254, 256);
+            this.tbklicks.Name = "tbklicks";
+            this.tbklicks.ReadOnly = true;
+            this.tbklicks.ShortcutsEnabled = false;
+            this.tbklicks.Size = new System.Drawing.Size(129, 20);
+            this.tbklicks.TabIndex = 7;
+            this.tbklicks.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(395, 332);
+            this.Controls.Add(this.tbklicks);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -228,6 +252,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tbslot1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox tbklicks;
     }
 }
 

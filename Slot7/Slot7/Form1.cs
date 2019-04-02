@@ -15,18 +15,29 @@ namespace Slot7
         public Form1()
         {
             InitializeComponent();
+
+        }
+
+        public void Neu ()
+        {
+            klicks = 0;
+            tbklicks.Text = Convert.ToString(klicks);
+            punkte = 50;
+            tbpunkte.Text = Convert.ToString(punkte);
+            MessageBox.Show("Neues Spiel gestartet!", "Neues Spiel", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         Random zufall = new Random();
 
-        public static int punkte = 30;
+        public static int punkte = 50;
+        public static int klicks = 0;
         
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             tbpunkte.Text = Convert.ToString(punkte);
-            punkte = punkte - 5;
-            tbpunkte.Text = Convert.ToString(punkte);
+
             if (punkte <= 0)
             {
                 DialogResult x = MessageBox.Show("Sie haben keine Punkte mehr wollen sie Neustarten, Game Over", "Game Over", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
@@ -36,13 +47,15 @@ namespace Slot7
                 }
                 else if (x == DialogResult.Yes)
                 {
-                    punkte = 30;
-                    tbpunkte.Text = Convert.ToString(punkte);
-                    MessageBox.Show("Neues Spiel gestartet!", "Neues Spiel", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Neu();
+                    return;
                 }
             }
-            
-            
+
+            klicks = klicks + 1;
+            tbklicks.Text = Convert.ToString(klicks);
+            punkte = punkte - 5;
+            tbpunkte.Text = Convert.ToString(punkte);
 
             int zufallzahl = Convert.ToInt32(zufall.Next(1, 11));
 
@@ -124,32 +137,32 @@ namespace Slot7
             {
                 tbslot3.Text = "#";
             }
-
+            
             if (tbslot1.Text == "7" & tbslot2.Text == "7" & tbslot3.Text == "7")
             {
                 punkte = punkte + 60;
                 tbpunkte.Text = Convert.ToString(punkte);
                 MessageBox.Show("7 7 7", "7 7 7", MessageBoxButtons.OK);
             }
-
+            else
             if (tbslot1.Text == "S" & tbslot2.Text == "S" & tbslot3.Text == "S")
             {
                 punkte = punkte + 30;
                 tbpunkte.Text = Convert.ToString(punkte);
             }
-
+            else
             if (tbslot1.Text == "+" & tbslot2.Text == "+" & tbslot3.Text == "+")
             {
                 punkte = punkte + 20;
                 tbpunkte.Text = Convert.ToString(punkte);
             }
-
+            else
             if (tbslot1.Text == "!" & tbslot2.Text == "!" & tbslot3.Text == "!")
             {
                 punkte = punkte + 10;
                 tbpunkte.Text = Convert.ToString(punkte);
             }
-
+            else
             if (tbslot1.Text == "#" & tbslot2.Text == "#" & tbslot3.Text == "#")
             {
                 punkte = punkte + 5;
